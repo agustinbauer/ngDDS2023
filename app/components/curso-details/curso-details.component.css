@@ -1,0 +1,134 @@
+
+.course-details {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+
+.custom-heading {
+  font-size: 1.5em;
+  color: #333;
+  margin: 0 0 10px 0;
+  padding: 5px 0;
+  border-bottom: 2px solid #0077b6;
+}
+
+
+.course-info {
+  margin-bottom: 10px;
+}
+
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+
+.course-theme-id {
+  font-style: italic;
+  color: #777;
+}
+
+
+.material-list {
+  list-style: none;
+  padding: 0;
+}
+
+
+.material-list-item {
+  margin: 5px 0;
+  color: #333;
+}
+
+
+.material-list-item input[type="radio"] {
+  margin-right: 5px;
+  color: #0077b6;
+}
+
+
+.edit-form {
+  background-color: #f5f5f5;
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  max-width: 500px;
+  margin: 0 auto;
+  max-height: 600px; 
+    overflow-y: auto;
+}
+
+
+.custom-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+
+.custom-button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 10px 5px;
+}
+
+
+.custom-button.custom-danger {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+}
+
+
+.custom-button.custom-danger:hover {
+  background-color: #bb2d3b;
+}
+
+
+.custom-button.custom-success {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+}
+
+
+.custom-button.custom-success:hover {
+  background-color: #1e7e34;
+}
+
+
+.custom-message {
+  margin-top: 10px;
+  color: #333;
+}
+.edit-form .custom-button {
+    margin-left: 20px;  
+    float: right;  
+    margin-top: 20px;  
+}
+.success-message {
+  background-color: #0077b6; 
+  color: #fff; 
+  font-size: 0.8em; 
+  padding: 5px; 
+  border-radius: 5px; 
+  text-align: center; 
+  max-width: 200px; 
+  margin-top: 27px; 
+}
